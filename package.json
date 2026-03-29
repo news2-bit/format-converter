@@ -1,0 +1,15 @@
+{
+  "name": "format-converter",
+  "version": "1.0.0",
+  "description": "Web-based image format converter",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "multer": "^1.4.5-lts.1",
+    "sharp": "^0.33.0"
+  }
+}
